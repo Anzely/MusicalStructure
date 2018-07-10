@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--main images background color-->
+    <color name="hiphop_background">#7B1FA2</color>
+    <color name="film_background">#F57C00</color>
+    <color name="pop_background">#689F38</color>
+    <color name="rock_background">#C2185B</color>
+</resources>

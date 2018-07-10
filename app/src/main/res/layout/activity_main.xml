@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.edit.musicalstructure.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            //1.Blokk
+            <LinearLayout
+                style="@style/Blokk"
+                android:padding="@dimen/blokk_padding">
+
+                <ImageView
+                    android:id="@+id/imageViewHipHop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hiphop_background"
+                    android:src="@drawable/hiphop" />
+
+                <TextView
+                    android:id="@+id/foto1"
+                    style="@style/Image_text"
+                    android:text="@string/foto1"
+                    android:textSize="@dimen/Image_Text_Size" />
+
+            </LinearLayout>
+            //2.Blokk
+            <LinearLayout
+                style="@style/Blokk"
+                android:padding="@dimen/blokk_padding">
+
+                <ImageView
+                    android:id="@+id/imageViewFilm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/film_background"
+                    android:src="@drawable/film" />
+
+                <TextView
+                    android:id="@+id/foto2"
+                    style="@style/Image_text"
+                    android:text="@string/foto2"
+                    android:textSize="@dimen/Image_Text_Size" />
+
+            </LinearLayout>
+            //3.Blokk
+            <LinearLayout
+                style="@style/Blokk"
+                android:padding="@dimen/blokk_padding">
+
+                <ImageView
+                    android:id="@+id/imageViewPop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/pop_background"
+                    android:src="@drawable/pop" />
+
+                <TextView
+                    android:id="@+id/foto3"
+                    style="@style/Image_text"
+                    android:text="@string/foto3"
+                    android:textSize="@dimen/Image_Text_Size" />
+
+            </LinearLayout>
+            //4.Blokk
+            <LinearLayout
+                style="@style/Blokk"
+                android:padding="@dimen/blokk_padding">
+
+                <ImageView
+                    android:id="@+id/imageViewRock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/rock_background"
+                    android:src="@drawable/rock" />
+
+                <TextView
+                    android:id="@+id/foto4"
+                    style="@style/Image_text"
+                    android:text="@string/foto4"
+                    android:textSize="@dimen/Image_Text_Size" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

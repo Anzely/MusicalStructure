@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/music_list_ListView"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.edit.musicalstructure.PopActivity" />
+
+    //sound player
+
+    <LinearLayout style="@style/music_list_player_layout">
+
+        <TextView
+            android:id="@+id/Author_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/Author_play_TextView_paddingLeft"
+            android:text="@string/music_author"
+            android:textSize="@dimen/player_text" />
+
+        <LinearLayout style="@style/music_list_player_seekbar_text_layout">
+
+            <TextView
+                android:id="@+id/seekbar_actual_value"
+                style="@style/music_list_seekbar_min_textView"
+                android:paddingLeft="@dimen/seekbar_min_textView_paddingLeft"
+                android:text="@string/seekbar_min_textView" />
+
+            <TextView
+                android:id="@+id/Seekbar_max_value"
+                style="@style/music_list_seekbar_max_textView"
+                android:paddingRight="@dimen/seekbar_max_textView_paddingRight"
+                android:text="@string/seekbar_max_textView" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/SeekBar_sound"
+            style="@style/music_list_player_seekbar"
+            android:progress="0" />
+
+        <LinearLayout style="@style/music_list_player_buttons_layout">
+
+            <ImageButton
+                android:id="@+id/previousButton"
+                style="@style/music_list_imageButton"
+                android:src="@drawable/back" /><!--//start-->
+
+            <ImageButton
+                android:id="@+id/stopButton"
+                style="@style/music_list_imageButton"
+                android:src="@drawable/stop" />
+
+            <ImageButton
+                android:id="@+id/playButton"
+                style="@style/music_list_imageButton"
+                android:src="@drawable/play" />
+
+
+            <ImageButton
+                android:id="@+id/nextButton"
+                style="@style/music_list_imageButton"
+                android:src="@drawable/next" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/music_list_backButon_layout">
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Back" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

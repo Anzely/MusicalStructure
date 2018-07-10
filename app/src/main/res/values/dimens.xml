@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blokkPadding">20dp</dimen>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- list_item padding -->
+    <dimen name="list_item_IconImage_paddingRight">5dp</dimen>
+    <dimen name="list_item_layout_padding">16dp</dimen>
+    <!-- music_list padding -->
+    <dimen name="Author_play_TextView_paddingLeft">20dp</dimen>
+    <dimen name="seekbar_min_textView_paddingLeft">20dp</dimen>
+    <dimen name="seekbar_max_textView_paddingRight">20dp</dimen>
+    <dimen name="blokk_padding">20dp</dimen>
+    <dimen name="Image_Text_Size">20sp</dimen>
+    <dimen name="player_text">15sp</dimen>
+</resources>

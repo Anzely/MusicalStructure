@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    //activity_main.xml Fotos
+    <string name="foto1">Hip Hop</string>
+    <string name="foto2">Film</string>
+    <string name="foto3">Pop</string>
+    <string name="foto4">Rock</string>
+    //AndroidManifest.xml PopActivityAlbum label
+    <string name="category_pop">Pop Music</string>
+    //AndroidManifest.xml RockActivityAlbum label
+    <string name="category_rock">Rock Music</string>
+    //AndroidManifest.xml FilmActivityAlbum label
+    <string name="category_film">Film Music</string>
+    //AndroidManifest.xml HipHopActivityAlbum label
+    <string name="category_hiphop">Hip Hop Music</string>
+    //music_list.xml seekBar text (min,max)
+    <string name="seekbar_min_textView">0</string>
+    <string name="seekbar_max_textView">200</string>
+    <string name="music_author">author</string>
+</resources>
